@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "description": "This is my extension.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "./popup/popup.html"
+    },
+    "background": {
+        "service_worker": "api/index.js",
+        "type": "module"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
